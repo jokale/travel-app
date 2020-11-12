@@ -59,6 +59,14 @@ class Home extends React.Component{
                     </div>
                 </div>
 
+                <div id='dream-trip'>
+                    <h2> Dream trip</h2>
+                     <div>New York</div>
+                     <div>Thailand</div>
+                     <div>Sweden</div>
+
+                </div>
+
             </div>
         )
     }
