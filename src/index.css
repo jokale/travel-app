@@ -77,7 +77,18 @@ button#button {
   border-color: black;
   border-width: thin;
   font-family: 'PT Sans', sans-serif;
+  
 
 
   
+}
+
+h1#title{
+  font-size: large;
+  font-weight: 300;
+  flex-direction: row;
+  font-family: 'PT Sans', sans-serif;
+  position: absolute; left:20px; top: 30px;
+  padding: 72px 69.7344px 108px;
+
 }

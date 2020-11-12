@@ -15,8 +15,7 @@ class Home extends React.Component{
 
             <div id="main-page">
                 <div id='home'>
-                <h1>Go Fly ™</h1>
-                {/* <button><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a></button> */}
+                <h1 id='title'>Go Fly ™</h1>
                 </div>
                 <div>
                     <Flight/>
