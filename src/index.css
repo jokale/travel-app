@@ -19,9 +19,29 @@ div#home {
   /* background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+  
 }
 
 div#main-page{
   font-family: 'PT Sans', sans-serif;
 
+}
+
+div#block{
+background-color: coral;
+border-radius: 25px;
+padding: 72px 69.7344px 108px;
+width: 500px;
+height: 150px;
+margin: 20px 0px 80px;
+
+}
+
+input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }

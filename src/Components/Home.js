@@ -27,6 +27,9 @@ class Home extends React.Component{
                 </div>
                 <div id="block">
                     <h2>Find the good flights out there.</h2>
+                    <input type="text" placeholder="Where do you want to fly too"/>
+                    {/* add icon to search button maybe aeroplane? */}
+
                 </div>
 
             </div>
