@@ -32,6 +32,33 @@ class Home extends React.Component{
 
                 </div>
 
+                <div id="block-two">
+                    <h2> ------------Keep on planning---------------- </h2>
+                    <div id="color-block">
+                        <h2>Start travelling now</h2>
+                        <h5>Create a Trip to save and organise all of your travel ideas, and see them on a map</h5>
+                        <button><h3>Create a Trip</h3></button>
+                    </div>
+                </div>
+
+                <div id='travel-guide'>
+                    <h2>Travel Guides</h2>
+                    <div id="container">
+                        <h4><b>Jane Doe</b></h4> 
+                        <p>Interior Designer</p> 
+                    </div>
+
+                    <div id="container">
+                        <h4><b>John Doe</b></h4> 
+                        <p>Interior Designer</p> 
+                    </div>
+
+                    <div id="container">
+                        <h4><b>Jan Doe</b></h4> 
+                        <p>Interior Designer</p> 
+                    </div>
+                </div>
+
             </div>
         )
     }

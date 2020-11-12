@@ -34,7 +34,7 @@ padding: 72px 69.7344px 108px;
 width: 500px;
 height: 150px;
 margin: 20px 0px 80px;
-
+flex: 0;
 }
 
 input[type=text] {
@@ -44,4 +44,19 @@ input[type=text] {
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+}
+
+div#color-block{
+  background-color:#FD5D5D;
+}
+
+div#container{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 2px 16px;
+  flex-direction: row;
+  flex: row;
+  flex-wrap: nowrap;
+
 }
