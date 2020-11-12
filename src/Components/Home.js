@@ -1,5 +1,6 @@
 import React from 'react'
 import Flight from './Flight'
+import Footer from './Footer'
 import Hotel from './Hotel'
 import Rental from './Rental'
 import Restaurant from './Restaurant'
@@ -66,7 +67,7 @@ class Home extends React.Component{
                      <div>Sweden</div>
 
                 </div>
-
+                <Footer/>
             </div>
         )
     }

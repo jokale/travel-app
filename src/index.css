@@ -60,3 +60,7 @@ div#container{
   flex-wrap: nowrap;
 
 }
+
+div#footer{
+  background-color: #F9F1ED;
+}
