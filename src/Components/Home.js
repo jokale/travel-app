@@ -1,4 +1,11 @@
 import React from 'react'
+import Flight from './Flight'
+import Hotel from './Hotel'
+import Rental from './Rental'
+import Restaurant from './Restaurant'
+import Review from './Review'
+import Todo from './Todo'
+
 
 
 class Home extends React.Component{
@@ -11,7 +18,15 @@ class Home extends React.Component{
                 {/* <button><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a></button> */}
                 </div>
                 <div>
-                    
+                    <Flight/>
+                    <Hotel/>
+                    <Rental/>
+                    <Restaurant/>
+                    <Review/>
+                    <Todo/>
+                </div>
+                <div id="block">
+                    <h2>Find the good flights out there.</h2>
                 </div>
 
             </div>
