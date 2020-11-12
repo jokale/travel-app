@@ -64,3 +64,20 @@ div#container{
 div#footer{
   background-color: #F9F1ED;
 }
+
+button#button {
+  padding: 12px 28px;
+  font-size: large;
+  font-weight: 300;
+  flex-direction: row;
+  border-radius: 4px;
+  float: none;
+  position: relative;
+  background-color: white;
+  border-color: black;
+  border-width: thin;
+  font-family: 'PT Sans', sans-serif;
+
+
+  
+}

@@ -6,7 +6,7 @@ class Rental extends React.Component{
         return(
 
                 <div id='rental'>
-                <button><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Rentals</button>
+                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Rentals</button>
                 </div>
             
 

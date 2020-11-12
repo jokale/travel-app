@@ -6,7 +6,7 @@ class Flight extends React.Component{
         return(
 
                 <div id='flight'>
-                <button><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Flights</button>
+                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Flights</button>
                 </div>
             
 

@@ -6,7 +6,7 @@ class Review extends React.Component{
         return(
 
                 <div id='review'>
-                <button><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Reviews</button>
+                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Reviews</button>
                 </div>
             
 
