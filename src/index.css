@@ -67,6 +67,7 @@ div#footer{
 
 button#button {
   padding: 12px 28px;
+  width: 150px;
   font-size: large;
   font-weight: 300;
   flex-direction: row;
@@ -86,6 +87,7 @@ button#button {
 
 div#buttons {
 display: flex;
+padding: 160px ;
 }
 
 h1#title{
@@ -96,4 +98,10 @@ h1#title{
   position: absolute; left:20px; top: 30px;
   padding: 72px 69.7344px 108px;
 
+}
+
+.divider{
+  width:22px;
+  height:auto;
+  display:inline-block;
 }

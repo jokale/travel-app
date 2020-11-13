@@ -19,10 +19,16 @@ class Home extends React.Component{
                 </div>
                 <div id="buttons">
                     <Flight/>
+                    <div class="divider"/>
                     <Hotel/>
+                    <div class="divider"/>
                     <Rental/>
+                    <div class="divider"/>
                     <Restaurant/>
+                    <div class="divider"/>
                     <Review/>
+                    <div class="divider"/>
+
                     <Todo/>
                 </div>
                 <div id="block">
