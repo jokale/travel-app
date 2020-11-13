@@ -17,7 +17,7 @@ class Home extends React.Component{
                 <div id='home'>
                 <h1 id='title'>Go Fly ™</h1>
                 </div>
-                <div>
+                <div id="buttons">
                     <Flight/>
                     <Hotel/>
                     <Rental/>

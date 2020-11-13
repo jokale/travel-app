@@ -77,10 +77,15 @@ button#button {
   border-color: black;
   border-width: thin;
   font-family: 'PT Sans', sans-serif;
+  flex-direction: row;
   
 
 
   
+}
+
+div#buttons {
+display: flex;
 }
 
 h1#title{
