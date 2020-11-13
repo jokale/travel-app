@@ -2,6 +2,7 @@ import React from 'react'
 import Flight from './Flight'
 import Footer from './Footer'
 import Hotel from './Hotel'
+import More from './More'
 import Rental from './Rental'
 import Restaurant from './Restaurant'
 import Review from './Review'
@@ -30,6 +31,9 @@ class Home extends React.Component{
                     <div class="divider"/>
 
                     <Todo/>
+                    <div class="divider"/>
+
+                    <More/>
                 </div>
                 <div id="block">
                     <h2>Find the good flights out there.</h2>
