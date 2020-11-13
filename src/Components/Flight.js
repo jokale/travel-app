@@ -1,4 +1,6 @@
 import React from 'react'
+import { TiPlane } from "react-icons/ti";
+
 
 
 class Flight extends React.Component{
@@ -6,7 +8,7 @@ class Flight extends React.Component{
         return(
 
                 <div id='flight'>
-                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Flights</button>
+                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Flights<TiPlane/></button>
                 </div>
             
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import { BsPencilSquare } from "react-icons/bs";
+
 
 
 class Review extends React.Component{
@@ -6,7 +8,7 @@ class Review extends React.Component{
         return(
 
                 <div id='review'>
-                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Reviews</button>
+                <button id="button"><a href='https://www.tripadvisor.co.uk/' target="_blank" rel="noopener noreferrer"></a> Reviews <BsPencilSquare/></button>
                 </div>
             
 
