@@ -7,6 +7,8 @@ import Rental from './Rental'
 import Restaurant from './Restaurant'
 import Review from './Review'
 import Todo from './Todo'
+import { BsSearch } from "react-icons/bs";
+
 
 
 
@@ -36,14 +38,14 @@ class Home extends React.Component{
                     <More/>
                 </div>
                 <div id="block">
-                    <h2>Find the good flights out there.</h2>
-                    <input type="text" placeholder="Where do you want to fly too"/>
+                    <h2 id='good-flight'>Find the good flights <br></br> out there.</h2>
+                    <input type="text" placeholder="Lets fly ..."/>
                     {/* add icon to search button maybe aeroplane? */}
 
                 </div>
 
                 <div id="block-two">
-                    <h2> ------------Keep on planning---------------- </h2>
+                    <h2 id='line'> <span>Keep on planning</span></h2>
                     <div id="color-block">
                         <h2>Start travelling now</h2>
                         <h5>Create a Trip to save and organise all of your travel ideas, and see them on a map</h5>
@@ -52,7 +54,7 @@ class Home extends React.Component{
                 </div>
 
                 <div id='travel-guide'>
-                    <h2>Travel Guides</h2>
+                    <h2 id='line'><span>Travel Guides</span></h2>
                     <div id="container">
                         <h4><b>Jane Doe</b></h4> 
                         <p>Interior Designer</p> 

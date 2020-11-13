@@ -28,22 +28,32 @@ div#main-page{
 }
 
 div#block{
-background-color: coral;
-border-radius: 25px;
-padding: 72px 69.7344px 108px;
-width: 500px;
-height: 150px;
-margin: 20px 0px 80px;
+background-color: #ffa280;
+border-radius: 29px;
+padding: 75px 69.7344px 108px;
+width: 980px;
+height: 170px;
+margin: 20px 0px 90px;
 flex: 0;
+position: relative; left: 170px; top: -90px;
+font-size: 32px;
 }
 
 input[type=text] {
   float: right;
-  padding: 6px;
+  padding: 22px 40px 12px 42px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
-  font-size: 17px;
+  font-size: 50px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  position: relative; left: 55; top: -80px;
+  width: 880px;
+  
+
+
 }
 
 div#color-block{
@@ -105,3 +115,21 @@ h1#title{
   height:auto;
   display:inline-block;
 }
+
+
+h2#good-flight{
+  position: relative; left: -290px; top: -50px;
+  font-weight: bolder;
+}
+
+
+h2#line{
+  border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+}
+
+span { 
+  background:#fff; 
+  padding:0 10px; 
+}
+
