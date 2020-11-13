@@ -58,10 +58,20 @@ input[type=text] {
 
 div#color-block{
   background-color:#FD5D5D;
+  padding:32px 32px 8px;
+  border-radius: 10px 0px 0px 10px;
+  width: 400px;
+  position: relative; left: 100px;
+  height: 200px;
+
+
+}
+
+img#one-pic{
   padding:30px;
   border-radius: 10px 0px 0px 10px;
   width: 700px;
-  position: relative; left: 190px;
+  position: relative; left: 700px; top: -270px;
 
 }
 

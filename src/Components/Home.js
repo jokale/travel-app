@@ -8,6 +8,8 @@ import Restaurant from './Restaurant'
 import Review from './Review'
 import Todo from './Todo'
 import { BsSearch } from "react-icons/bs";
+import map from '../Components/map.png'
+
 
 
 
@@ -46,12 +48,20 @@ class Home extends React.Component{
 
                 <div id="block-two">
                     <h2 id='line'> <span>Keep on planning</span></h2>
+                    <div class="divider"/>
+                    <div class="divider"/>
+
+
                     <div id="color-block">
                         <h2>Start travelling now</h2>
                         <h5>Create a Trip to save and organise all of your travel ideas, and see them on a map</h5>
                         <button><h3>Create a Trip</h3></button>
+                        <center><img id="one-pic" src={map} alt="picture" /></center> <br></br>
+
                     </div>
                 </div>
+                <div class="divider"/>
+                <div class="divider"/>
 
                 <div id='travel-guide'>
                     <h2 id='line'><span>Travel Guides</span></h2>
