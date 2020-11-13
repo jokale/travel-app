@@ -58,6 +58,11 @@ input[type=text] {
 
 div#color-block{
   background-color:#FD5D5D;
+  padding:30px;
+  border-radius: 10px 0px 0px 10px;
+  width: 700px;
+  position: relative; left: 190px;
+
 }
 
 div#container{
